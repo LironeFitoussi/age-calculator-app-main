@@ -74,6 +74,34 @@ body {
     border-radius: 1rem 1rem 10rem 1rem;
 }
 
+form {
+    display: grid;
+    gap: 2vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "day month year year "
+    "submit submit submit submit"
+    
+    ;
+}
+
+.day-grid {
+    grid-area: day;
+}
+
+.month-grid {
+    grid-area: month;
+}
+
+.year-grid {
+    grid-area: year;
+}
+
+.submitContainer {
+    width: 100%;
+    grid-area: submit;
+}
+
 footer {
  position: absolute;
  bottom: 1vh;
