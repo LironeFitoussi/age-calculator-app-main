@@ -1,3 +1,4 @@
+/* Fonts */
 @font-face {
     font-family: "Poppins";
     src: url("./assets/fonts/Poppins-Regular.ttf") format("TrueType");
@@ -38,6 +39,20 @@
     src: url("./assets/fonts/Poppins-ExtraBoldItalic.ttf") format("TrueType");
     font-weight: 800; /* Use the appropriate font-weight value for extra bold */
     font-style: italic;
+}
+
+/* Colors */
+:root {
+/* ### Primary */
+    --Purple: hsl(259, 100%, 65%);
+    --Light-red: hsl(0, 100%, 67%);
+
+/* ### Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Off-white: hsl(0, 0%, 94%);
+    --Light-grey: hsl(0, 0%, 86%);
+    --Smokey-grey: hsl(0, 1%, 44%);
+    --Off-black: hsl(0, 0%, 8%);
 }
 
 body {
