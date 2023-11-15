@@ -58,9 +58,25 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
+    background-color: var(--Off-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 2.5rem;
+    border-radius: 1rem 1rem 10rem 1rem;
 }
 
 footer {
+ position: absolute;
+ bottom: 1vh;
   font-size: 11px;
   text-align: center;
 }
