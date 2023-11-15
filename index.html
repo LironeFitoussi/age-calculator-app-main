@@ -10,28 +10,34 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    footer { font-size: 11px; text-align: center; }
+    footer a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
 <body>
-
-  Day
-  DD
-
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-  
-  <div class="attribution">
+  <div class="container">
+    <form>
+      <label for="day">day</label>
+      <input type="number" placeholder="DD" id="day">
+      <label for="month">month</label>
+      <input type="number" placeholder="MM" id="month">
+      <div>
+        <label for="year">year</label>
+      </div>
+      <input type="number" placeholder="YYYY" id="year">
+      <button>
+        <img src="./assets/images/icon-arrow.svg" alt="icon-arrow">
+      </button>
+    </form>
+    <div id="calculatedAge">
+      <h1><span>--</span>years</h1>
+      <h1><span>--</span>months</h1>
+      <h1><span>--</span>days</h1>
+    </div>
+  </div>
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </footer>
 </body>
 </html>
